@@ -1,4 +1,4 @@
-# 🚀 BlogNova Repository
+# 🚀 BlogNova 
 
 Welcome to the **BlogNova** repository! ✨ This project is a modern blogging platform where users can create, read, update, and delete blog posts with ease. The repository is maintained collaboratively by **Dhruvi Patel** and **Rishi Patel**.
 
