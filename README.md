@@ -1,82 +1,80 @@
-# 🌐 **BlogNest**  
-> _Your ultimate platform for sharing ideas, thoughts, and stories._
+# 🚀 BlogNova Repository
+
+Welcome to the **BlogNova** repository! ✨ This project is a modern blogging platform where users can create, read, update, and delete blog posts with ease. The repository is maintained collaboratively by **Dhruvi Patel** and **Rishi Patel**.
 
 ---
 
-## 🚀 Introduction  
-**BlogNest** is a feature-rich blogging platform designed to offer an intuitive and engaging experience for both content creators and readers. With powerful blog management tools and a sleek UI, BlogNest simplifies content creation while ensuring seamless interaction.
+## 🌟 Features
+✅ User authentication and authorization 🔒  
+✅ Create, edit, and delete blog posts 📝  
+✅ Responsive UI for a seamless experience 📱💻  
+✅ Commenting system for user engagement 💬  
+✅ Database integration for storing blog data 🗄️  
 
 ---
 
-## ✨ Features  
-✅ **User Authentication** – Secure and efficient login/registration.  
-✅ **Blog Management** – Create, edit, and delete your blogs.  
-✅ **Categories Support** – Organize content with relevant categories.  
-✅ **Comments System** – Engage with readers through comments.  
-✅ **Rich Text Editor** – Write blogs with advanced formatting.  
-✅ **Responsive UI** – Optimized for all devices with a clean design.  
+## 🛠️ Technologies Used
+| **Technology** | **Description** |
+|--------------|----------------|
+| 🎨 **Frontend** | React.js (Located in `frontend` branch) |
+| ⚙️ **Backend** | Spring Boot (Located in `main` branch) |
+| 🗄️ **Database** | MySQL |
 
 ---
 
-## 🛠️ Tech Stack  
-### Frontend  
-🟦 **React** (with Vite)  
-🎨 **Tailwind CSS** for styling  
-🧭 **React Router** for navigation  
-🔗 **Axios** for API requests  
+## 🚀 Installation Guide
+### Prerequisites ✅
+Ensure you have the following installed before proceeding:
+- 🟢 Node.js & npm
+- ☕ Java JDK 22
+- 🛢️ MySQL
+- 🏗️ Spring Boot
 
-### Backend  
-☕ **Spring Boot** for backend logic  
-🐘 **MySQL** as the database  
-📄 **JPA (Java Persistence API)** for data handling  
-
----
-
-## 📦 Installation Guide  
-
-### Backend Setup  
-1. **Clone the backend repository:**  
-   ```bash
-   git clone https://github.com/anmolpurohit777/BlogNest.git
-   cd BlogNest
+### 🔧 Steps to Run the Project
+1️⃣ Clone the repository:
+   ```sh
+   git clone https://github.com/Dhruviptl26/Blog.git
    ```
-
-2. **Configure MySQL Database:**  
-   Update the `application.properties` file with your database details:  
-   ```properties
-   spring.datasource.url=jdbc:mysql://localhost:3306/your_database
-   spring.datasource.username=your_username
-   spring.datasource.password=your_password
+2️⃣ Navigate to the project directory:
+   ```sh
+   cd BlogNova
    ```
-
-3. **Run the Application:**  
-   ```bash
-   ./mvnw spring-boot:run
-   ```
-
----
-
-### Frontend Setup  
-1. **Clone the frontend repository:**  
-   ```bash
-   git clone https://github.com/Pratik24816/blogui.git
-   cd blogui
-   ```
-
-2. **Install Dependencies:**  
-   ```bash
+3️⃣ Switch to the frontend branch and install dependencies:
+   ```sh
+   git checkout frontend
+   cd frontend
    npm install
    ```
-
-3. **Start the Development Server:**  
-   ```bash
-   npm run dev
+4️⃣ Start the frontend:
+   ```sh
+   npm start
    ```
+5️⃣ Switch to the main branch and set up the backend:
+   ```sh
+   git checkout main
+   ```
+   - Configure database in `application.properties`
+   - Run the Spring Boot application
+   ```sh
+   mvn spring-boot:run
+   ```
+6️⃣ Access the application at 🌐 `http://localhost:3000`
 
 ---
 
-## 📋 Usage  
-1. 🔐 **Register/Login** – Create an account or log in securely.  
-2. 📝 **Create a Blog** – Draft your content using the rich text editor.  
-3. 📚 **Browse Content** – Explore engaging blogs categorized neatly.  
-4. 💬 **Add Comments** – Share your thoughts with fellow readers.  
+## 🤝 Contribution Guidelines
+We love open-source contributions! If you'd like to collaborate:
+1. **Fork** the repository 🍴
+2. **Create a feature branch** 🛠️
+3. **Commit your changes** 💾
+4. **Push to your branch** 🚀
+5. **Submit a pull request** 🔄
+---
+
+## 📜 License
+This project is licensed under the **MIT License**. Feel free to use, modify, and contribute! 🎉
+
+---
+
+✨ *Happy coding & blogging!* ✨ 🚀
+
